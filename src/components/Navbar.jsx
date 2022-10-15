@@ -43,7 +43,7 @@ return (
                     className={`w-16 h-auto ${navState && "filter brightness-0"}`}
                 />
             </div>
-            <ul className='flex items-center justify-center gap-2'>
+            <ul className='flex items-center justify-center gap-7'>
                 <li className='grid items-center'>
                     <MagnifyingGlassIcon className={`icon-style ${navState && "text-slate-900 transition-all duration-300"}`} />
                 </li>

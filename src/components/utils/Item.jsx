@@ -43,20 +43,20 @@ const Item = ({
             ifExists ? "justify-items-start" : "justify-items-center"
           }`}
         >
-          <h1 className="text-slate-200 text-xl lg:text-lg md:text-base font-medium filter drop-shadow">
+          <h1 className="text-slate-200 py-3 text-xl lg:text-lg md:text-base font-medium filter drop-shadow">
             {title}
           </h1>
           <p className="text-slate-200 filter drop-shadow text-base md:text-sm font-normal">
             {text}
           </p>
 
-          <div className="flex items-center justify-between w-28 my-2">
-            <div className="flex items-center bg-white/80  px-1 rounded blur-effect-theme">
-              <h1 className="text-black text-sm font-medium">${price}</h1>
+          <div className="flex items-center justify-between w-28 my-4">
+            <div className="flex items-center  bg-white/80 px-1 rounded blur-effect-theme">
+              <h1 className="text-black text-sm font-bold p-1">${price}</h1>
             </div>
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-2">
               <StarIcon className="icon-style w-5 h-5 md:w-4 md:h-4" />
-              <h1 className="md:text-sm font-normal text-slate-100">
+              <h1 className="md:text-sm font-bold">
                 {rating}
               </h1>
             </div>
